@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-text-size-adjust: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: clamp(2.5rem, 3.5vw, 4rem); 
+    color: #333333;
+    text-align: left;
+}
+
+a {
+  color:aqua;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #626262;
+}

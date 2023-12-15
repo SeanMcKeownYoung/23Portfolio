@@ -4,7 +4,25 @@ body {
     -moz-osx-font-smoothing: grayscale; 
     -webkit-text-size-adjust: none;
 }
-
+.paperWrap {
+    background-color: #eaeaea;
+}
+.card {
+    color: #ffffff;
+}
+.spacer {
+    margin-bottom: 30px;
+}
+.spacer {
+    margin-top: 30px;
+}
+.spacerRight {
+    margin-right: 10px;
+}
+.alignSpadea {
+align-items: flex-end;
+    bottom: 0;
+}
 
 
 a {
@@ -14,7 +32,7 @@ a {
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: #626262;
+    color: #a1a1a1;
 }
 
 .intro {
@@ -28,7 +46,6 @@ a {
     color: white;
     margin-top: 30px;
     position: absolute;
-    color: white;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -154,6 +171,21 @@ h3 {
     font-size: 1.7em; 
     margin-top: 20px;
 }
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    opacity: 70%;
+    font-size: 1.7em; 
+    margin-top: 20px;
+}
+.naviCon {
+    width: 80px;
+    height: 80px;
+}
+.fa-navicon {
+    transform: scale(2, 2);
+}
 
 h5 {
     font-family: 'Roboto', sans-serif;
@@ -251,4 +283,35 @@ h5 {
       width: 100%;
     }
   }
-  
+  footer {
+    padding-top: 100px;
+	background-color:#0688fa;
+    color: white;
+    padding-bottom: 50px;
+  }
+  h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+
+  }
+  h7 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+
+  }
+  p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+  }
+  .text-dim {
+    color: white;
+    opacity: 80%;
+    font-size: 18px;
+  }
